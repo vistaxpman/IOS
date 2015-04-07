@@ -1,1 +1,133 @@
++ Tính khoảng cách giữa hai tọa độ
+http://stackoverflow.com/questions/3905896/distancefromlocation-calculate-distance-between-two-points
+
+- (CLLocationDistance) distanceFromCoordinate:(CLLocationCoordinate2D) fromCoord;
+{
+    double earthRadius = 6371.01; // Earths radius in Kilometers
+
+    // Get the difference between our two points then convert the difference into radians
+    double nDLat = (fromCoord.latitude - self.coordinate.latitude) * kDegreesToRadians;  
+    double nDLon = (fromCoord.longitude - self.coordinate.longitude) * kDegreesToRadians; 
+
+    double fromLat =  self.coordinate.latitude * kDegreesToRadians;
+    double toLat =  fromCoord.latitude * kDegreesToRadians;
+
+    double nA = pow ( sin(nDLat/2), 2 ) + cos(fromLat) * cos(toLat) * pow ( sin(nDLon/2), 2 );
+
+    double nC = 2 * atan2( sqrt(nA), sqrt( 1 - nA ));
+    double nD = earthRadius * nC;
+
+    return nD * 1000; // Return our calculated distance in meters
+}
+
+
+http://stackoverflow.com/questions/10879579/how-to-calculate-distance-from-user-location-to-annotation-when-user-moves
+http://zappdesigntemplates.com/add-location-tracking-into-your-ios-app/
+http://www.techotopia.com/index.php/Getting_Location_Information_using_the_iOS_8_Core_Location_Framework_in_Swift
+http://www.techotopia.com/index.php/A_Swift_Example_iOS_8_Location_Application
+http://www.raywenderlich.com/73984/make-app-like-runkeeper-part-1
+http://www.johnmullins.co/blog/2014/08/14/location-tracker-with-maps/
+
+http://stackoverflow.com/questions/29069970/ios-swift-how-to-show-distance-from-current-location-and-exist-annotation-on
+var one, two: CLLocation
+// assign one and two
+let distance = two.distanceFromLocation(one)
+
++ Can tim
+http://stackoverflow.com/questions/28952747/calculate-total-traveled-distance-ios-swift
+var startLocation:CLLocation!
+var lastLocation: CLLocation!
+var traveledDistance:Double = 0
+
+func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
+    if startLocation == nil {
+        startLocation = locations.first as? CLLocation
+    } else {
+        let distance = startLocation.distanceFromLocation(locations.last as CLLocation)
+        let lastDistance = lastLocation.distanceFromLocation(locations.last as CLLocation)
+        traveledDistance += lastDistance
+        println( "\(startLocation)")
+        println( "\(locations.last!)")
+        println("FULL DISTANCE: \(traveledDistance)")
+        println("STRAIGHT DISTANCE: \(distance)")
+    }
+    lastLocation = locations.last as CLLocation
+}
+
+
+func didTapMyLocationButtonForMapView
+
+http://stackoverflow.com/questions/24384209/ios-google-sdk-map-cannot-create-dotted-polylines
+http://stackoverflow.com/questions/15040409/how-to-setregion-with-google-maps-sdk-for-ios
+http://dubinski.org/wpis/google-maps-sdk-with-swift-tutorial/
+http://stackoverflow.com/questions/27578731/google-map-sdk-ios-cannot-ge-mylocation
+https://github.com/domesticmouse/swift-google-map
+
+http://qiita.com/shiratsu/items/4d44c7548c1c7014bf72
+
+
+
+http://cyfangnotepad.blogspot.com/2015/02/swift-google-mapsiphone-app.html
+http://www.techotopia.com/index.php/Integrating_Maps_into_iOS_8_Applications_using_MKMapItem_and_Swift
+https://dipinkrishna.com/blog/2014/06/ios-google-maps-set-camera-show-markers/
+
++ Từ khóa cần tìm 
+Google Maps SDK iOS Easy way of getting Capital Cities with Longitude and Latitude
+Route draw using Google Map with iOS Sdk 
+iOS :: Draw a route between two points(annotations) in Swift?
+
+
++ Project Google mobile app
+https://github.com/svram
+http://www.codinginswift.com/forums/
+https://github.com/entaq/GoogleMapsSwiftBootstrap
+https://github.com/notice/swift-gmaps/blob/master/gmaps/ViewController.swift
+http://cocoapods.org/pods/PXGoogleDirections
+
+https://dineshramitc.wordpress.com/category/swift-programming/page/2/
+https://dineshramitc.wordpress.com/2015/04/01/linechart-library-for-ios-written-in-swift/
+http://selise.ch/swift-tutorial-mapkit-application/
+http://www.jogendra.com/2014/08/way-path-create-using-google-map-with.html
+http://cyfangnotepad.blogspot.com/2015/02/swfit-ios-add-marker-on-google-maps.html
+https://dipinkrishna.com/blog/2014/07/login-signup-screen-tutorial-xcode-6-swift-ios-8-json/
+
++ Draw direction
+https://developers.google.com/maps/documentation/ios/shapes
+https://github.com/varshylmobile/MapManager/blob/master/MapManager.swift
+https://maniacdev.com/2014/10/swift-based-helper-libraries-for-easier-geocoding-and-drawing-directions-on-maps
+http://code4app.net/category/mapview
+http://sohu.io/questions/3255156/ios-8-sdk-swift-mapkit-drawing-a-route
+
+
++ Đọc Json với Swift
+http://cyfangnotepad.blogspot.com/2015/02/swift-read-json-from-url.html
+http://www.raywenderlich.com/21987/top-10-most-useful-ios-libraries-to-know-and-love
+http://nshipster.com/alamofire/
+=================
+
+
+http://mac.eltima.com/download-manager.html
+http://alternativeto.net/software/internet-download-manager/?platform=mac
+http://www.macpsd.net/
+http://manytricks.com/leech/
+http://www.igetter.net/iGetter.html
+http://www.macupdate.com/app/mac/27772/speed-download-lite
+
++ Những phần cần làm cho Google Maps
+	- Chức năng 
+		- Lưu thông tin địa chỉ vào trong SQL Lite ( SẼ sử dùng Core Data để lưu và đọc thông tin )
+		- Dùng google maps api để lấy thông tin của đường dẫn và vẽ đường đi 
+		- Khi click vào mỗi địa chỉ ( Pin ) sẽ vẽ đường dẫn từ vị trí của người dùng cho tới địa chỉ cần tới
+	- Giao diện 
+		- Khi click vào một textbox sẽ hiện thông tin dạng dropdown để người dùng chọn
+		- Chức năng tìm kiếm dựa trên thông tin ( Dùng Sql Lite )
+		- Hiện thông tin của bảng đồ khi mỏ app ra
+		- Nhấn nút sẽ tìm kiếm và hiện thông tin của bảng đồ và đường đi từ địa điểm của người dùng cho tới vị trí cần tới
+	- Search những thông tin sau đây 
+		- Core Data ( Insert, Update, Select, Delete )
+		- Google maps api
+		- Vẽ đường đi từ địa điểm A tới địa điểm B
+		- 
+
+
 Thong tin chi tiet ve map voi Swift
