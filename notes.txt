@@ -1,3 +1,55 @@
+
+======================================================================== 08 - 04 - 2015 ===============================================================================================================================================================================================
+
+
+How to debug EXC_BAD_ACCESS
+
+http://www.ibm.com/developerworks/library/mo-ios-memory/
+
++ Debugging with Swift
+https://developer.apple.com/videos/wwdc/2014/#410
+http://natashatherobot.com/swift-debugging/
+
++ Thêm key vào trong XCode 6
+http://stackoverflow.com/questions/24003291/ifdef-replacement-in-swift-language
+
+- conditional compilation ( environment variable )
+let dic = NSProcessInfo.processInfo().environment
+if dic["TRIPLE"] != nil {
+	// ... do secret stuff here ...
+}
+
+http://rshankar.com/debugging-swift-app-in-xcode/
+https://github.com/DaveWoodCom/XCGLogger
+http://www.cerebralgardens.com/
+http://rshankar.com/internationalization-and-localization-of-apps-in-xcode-6-and-swift/
+http://rshankar.com/blogreader-app-in-swift/
+http://rshankar.com/how-to-rename-project-in-xcode/
+http://rshankar.com/coredata-tutoiral-in-swift-using-nsfetchedresultcontroller/
+http://natashatherobot.com/swift-enums-tableviews/
+http://natashatherobot.com/ios-autolayout-scrollview/
+http://nshipster.com/swift-system-version-checking/
+http://www.raywenderlich.com/10209/my-app-crashed-now-what-part-1
+http://nshipster.com/
+http://nshipster.com/quick-look-debugging/
+http://www.raywenderlich.com/tutorials
+
+
+
++ Get current address in Swift
+http://rshankar.com/get-your-current-address-in-swift/
+
+
++ Bảng so sáng các keyword của Objective-C và Swift
+http://natashatherobot.com/swift-the-deceptively-simple-programming-language/
+http://natashatherobot.com/wp-content/uploads/Screen-Shot-2014-07-04-at-9.18.38-AM.png
+
+
++ Cách xây dựng API
+https://github.com/naru/API-practices-demo/blob/master/app/controllers/api/v2/application_controller.rb
+
+
+
 + Tính khoảng cách giữa hai tọa độ
 http://stackoverflow.com/questions/3905896/distancefromlocation-calculate-distance-between-two-points
 
