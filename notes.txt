@@ -1,6 +1,17 @@
 
 ======================================================================== 08 - 04 - 2015 ===============================================================================================================================================================================================
 
++ Blog hay cho Swift
+http://www.reddit.com/r/swift/
+http://swiftoverload.com/introduction-swift-repl/
+Debugging Swift in Xcode
+https://developer.apple.com/swift/blog/
+https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID60
+http://swift.exomachina.com/
+http://forum.iphonedev.tv/
+http://swiftandpainless.com/
+
+
 http://www.objc.io/issue-19/lldb-debugging.html
 How to debug EXC_BAD_ACCESS
 
