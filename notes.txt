@@ -7,6 +7,10 @@ latitude
 longitude
 miles
 
+address	price	quantity	latitude	longitude	miles
+An Phu Plaza	5000	500	10.787458	106.684894	2 KM
+
+
 
 + Blog hay cho Swift
 http://www.reddit.com/r/swift/
