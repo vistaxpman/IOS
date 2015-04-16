@@ -1,4 +1,13 @@
 
++ Kích cỡ cho uiview cua pin là
+
+150 x 150
+font chu : 16
+func mapView(mapView: GMSMapView!, markerInfoContents marker: GMSMarker!) -> UIView! {
+https://developers.google.com/maps/documentation/directions/
+https://maps.googleapis.com/maps/api/directions/json?key=AIzaSyBnd-VqgKIaNuh7o8ONzNrCkrIbbjkoX0s&origin=10.787452,106.684882&destination=10.7923,106.681006&mode=driving
+
+
 ======================================================================== 08 - 04 - 2015 ===============================================================================================================================================================================================
 addpress
 price
