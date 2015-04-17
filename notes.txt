@@ -8,6 +8,123 @@ https://developers.google.com/maps/documentation/directions/
 https://maps.googleapis.com/maps/api/directions/json?key=AIzaSyBnd-VqgKIaNuh7o8ONzNrCkrIbbjkoX0s&origin=10.787452,106.684882&destination=10.7923,106.681006&mode=driving
 
 
+======================================================================== XCode ===============================================================================================================================================================================================
++ Từ khóa cho Swift
+Autolayout, Adaptive Layout, Debugging in Xcode, iOS design patterns, and more
+How to debug EXC_BAD_ACCESS
+environment variable
+Cách xây dựng API
+Completion Handler in Swift
+Swift Closures
+Asynchronous Testing With Xcode 6
+Action Handler and Closures
+Function is generic
+variadic parameters
+Core Data Asynchronous Fetching in iOS 8 and Swift
+Ui automation
+TDD Workflow in Swift
+Clean Coding in Swift
+
+
+Mutating dùng để thay giá trị của một biến khi vào trong một function ( không cần dùng từ khóa inout )
+
+
++ Ứng dụng cho ios
+https://quique123.wordpress.com/2015/03/14/swimfit-for-ios-is-out/
+
+==== 17 - 04 - 2015
+http://www.pumpmybicep.com/2014/07/07/nsfetchedresultscontroller-ios-core-data-basics-in-swift/
+http://www.pumpmybicep.com/2014/09/25/introduction-to-ui-automation/
+http://www.pumpmybicep.com/2014/09/17/writing-a-core-data-custom-migration/
+http://www.andrewcbancroft.com/2015/02/18/core-data-cheat-sheet-for-swift-ios-developers/
+http://www.andrewcbancroft.com/2015/04/15/testability-tip-for-swift-developers-public-over-private/
+http://www.andrewcbancroft.com/2015/04/08/how-delegation-works-a-swift-developer-guide/
+http://www.andrewcbancroft.com/2015/03/26/what-is-delegation-a-swift-developers-guide/
+http://www.andrewcbancroft.com/2015/04/01/enums-instead-of-booleans-an-example-implementation/
+http://www.andrewcbancroft.com/2015/03/17/basics-of-pull-to-refresh-for-swift-developers/
+http://www.andrewcbancroft.com/2015/03/10/an-almost-tdd-workflow-in-swift/
+http://www.andrewcbancroft.com/2015/03/05/displaying-data-with-nsfetchedresultscontroller-and-swift/
+http://www.andrewcbancroft.com/2015/02/25/using-swift-to-seed-a-core-data-database/
+http://www.andrewcbancroft.com/2015/02/12/custom-uitableviewcell-text-input-swift/
+http://www.andrewcbancroft.com/2015/02/05/nsnotificationcenter-vs-delegation-analysis/
+http://www.andrewcbancroft.com/2014/09/02/replace-magic-strings-with-enumerations-in-swift/
+http://www.andrewcbancroft.com/2014/07/17/implement-nsmanagedobject-subclass-in-swift/
+http://www.andrewcbancroft.com/2015/02/25/using-swift-to-seed-a-core-data-database/
+
+
+
+
+==== 16 - 04 - 2015 
++ Core data with Swift
+https://www.google.com/search?q=Swift%20%2B%20core%20data&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&channel=np&source=hp
+http://www.atomicbird.com/blog/swift-core-data
+http://www.raywenderlich.com/85578/first-core-data-app-using-swift
+http://jamesonquave.com/blog/core-data-in-swift-tutorial-part-1/
+https://github.com/iascchen/SwiftCoreDataSimpleDemo
+http://www.jessesquires.com/better-coredata-models-in-swift/
+http://shrikar.com/blog/2015/02/08/core-data-swift-tutorial/
+http://weblog.invasivecode.com/post/97611333920/core-data-asynchronous-fetch-ios-8-swift
+http://www.andrewcbancroft.com/2015/02/18/core-data-cheat-sheet-for-swift-ios-developers/
+http://www.raywenderlich.com/85578/first-core-data-app-using-swift
+http://jamesonquave.com/blog/core-data-in-swift-tutorial-part-1/
+https://github.com/iascchen/SwiftCoreDataSimpleDemo
+http://www.jessesquires.com/better-coredata-models-in-swift/
+http://shrikar.com/blog/2015/02/08/core-data-swift-tutorial/
+http://www.jessesquires.com/swift-failable-initializers-revisited/
+http://www.jessesquires.com/functional-notifications/
+http://www.jessesquires.com/introducing-jsqmessagesvc-6-0/
+
+
+
+
+==== 14 - 04 - 2015
+http://natashatherobot.com/mutating-functions-swift-structs/
+http://2014.funswiftconf.com/
+http://2014.funswiftconf.com/speakers/justin.html
+http://stackoverflow.com/questions/24035648/swift-and-mutating-struct
+
+
+==== 13 - 04 - 2015
+http://www.brianjcoleman.com/tutorial-facebook-login-in-swift/
+
+==== 09 - 04 - 2015
++  Completion trong Swift, Closures in Swift
+http://stackoverflow.com/questions/24554936/completion-handler-in-swift
+https://thatthinginswift.com/completion-handlers/
+http://adoptioncurve.net/archives/2014/07/a-minimum-viable-tableview-in-swift/
+http://www.learnswift.io/blog/2014/6/9/writing-completion-blocks-with-closures-in-swift
+
+
+
+
+https://quique123.wordpress.com/2014/10/18/swift-closures-quick-reference-part-1/
+https://quique123.wordpress.com/2014/10/24/swift-closures-quick-reference-part-2/
+https://quique123.wordpress.com/2014/11/08/swift-closures-quick-reference-part-3/
+http://blog.teamtreehouse.com/making-network-request-swift
+	- can tim 
+		http://www.appcoda.com/uialertcontroller-swift-closures-enum/
+
++ Google maps ios sdk
+http://www.appcoda.com/google-maps-api-tutorial/
+
+
+http://www.appcoda.com/custom-view-controller-transitions-tutorial/
+http://www.appcoda.com/ibeacons-swift-tutorial/
+http://www.appcoda.com/app-showcase-runr/
+http://www.appcoda.com/introduction-auto-layout/
+http://www.appcoda.com/beginners-guide-optionals-swift/
+http://www.appcoda.com/ios-programming-facebook-login-manual/
+http://www.raywenderlich.com/85080/beginning-alamofire-tutorial
+http://alanduncan.me/blog/2014/06/08/Swift-completion-blocks/
+https://medium.com/swift-programming/learn-nsurlsession-using-swift-part-2-background-download-863426842e21
+http://www.learnswift.io/
+http://www.brianjcoleman.com/tutorial-rate-me-using-uialertview-in-swift/
+https://www.bignerdranch.com/blog/asynchronous-testing-with-xcode-6/
+
+
+
++ Chuyển toàn bộ code của Objective-c sang cho Swift 
+http://www.appcoda.com/ios-event-kit-programming-tutorial/
 ======================================================================== 08 - 04 - 2015 ===============================================================================================================================================================================================
 addpress
 price
