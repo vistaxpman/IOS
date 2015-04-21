@@ -1,4 +1,14 @@
 
+https://www.google.com.vn/#q=core+data+%2B+swift+%2B+ios+8+%2B+to+do+list&start=10
+http://swift-tutorials.com/video-tutorials/introduction-swift-building-simple-list-app/
+http://www.raywenderlich.com/85578/first-core-data-app-using-swift
+http://jamesonquave.com/blog/core-data-in-swift-tutorial-part-1/
+http://www.appcoda.com/introduction-to-core-data/
+http://czetsuya-tech.blogspot.com/2014/10/simple-to-do-list-core-data-swift-note.html#.VTXOAqx-Ycs
+http://code.tutsplus.com/tutorials/ios-8-core-data-and-batch-updates--cms-22164
+http://stackoverflow.com/questions/25127090/saving-coredata-to-many-relationships-in-swift
+
+
 + Kích cỡ cho uiview cua pin là
 
 150 x 150
